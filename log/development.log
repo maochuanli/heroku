@@ -940,3 +940,175 @@ Started GET "/assets/widgets.css?body=1" for 192.168.56.1 at 2015-07-25 13:25:40
 
 
 Started GET "/assets/widgets.js?body=1" for 192.168.56.1 at 2015-07-25 13:25:40 +1200
+
+
+Started GET "/" for 192.168.56.1 at 2015-07-25 14:08:33 +1200
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.erb within layouts/application (11.0ms)
+Completed 200 OK in 210ms (Views: 199.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/assets/users.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/assets/posts.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/assets/welcome.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/assets/posts.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/assets/users.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/assets/welcome.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/assets/widgets.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/assets/theme.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/assets/widgets.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/assets/lang-logo.png" for 192.168.56.1 at 2015-07-25 14:08:34 +1200
+
+
+Started GET "/posts" for 192.168.56.1 at 2015-07-25 14:08:36 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (2.6ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 105ms (Views: 92.2ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:37 +1200
+
+
+Started GET "/assets/posts.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:37 +1200
+
+
+Started GET "/assets/users.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:37 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:37 +1200
+
+
+Started GET "/assets/users.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:37 +1200
+
+
+Started GET "/assets/welcome.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:37 +1200
+
+
+Started GET "/assets/posts.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:37 +1200
+
+
+Started GET "/assets/theme.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:37 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:37 +1200
+
+
+Started GET "/assets/welcome.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:37 +1200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:37 +1200
+
+
+Started GET "/assets/widgets.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:37 +1200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:37 +1200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:37 +1200
+
+
+Started GET "/assets/widgets.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:37 +1200
+
+
+Started GET "/posts/new" for 192.168.56.1 at 2015-07-25 14:08:41 +1200
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (36.0ms)
+  Rendered posts/new.html.erb within layouts/application (41.6ms)
+Completed 200 OK in 96ms (Views: 95.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 192.168.56.1 at 2015-07-25 14:08:52 +1200
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"po2Yn4A0XENvBjm22FAnupIrzLrvKQzv2EmQAAZdS1gNxMpFUo/wSLnIpJyM5T7YVY1nw9ak5H+SSaGnPo/prQ==", "post"=>{"title"=>"title22", "body"=>"body22", "name"=>"name22", "addr"=>"addr 22", "DOB(1i)"=>"2015", "DOB(2i)"=>"7", "DOB(3i)"=>"25", "DOB(4i)"=>"02", "DOB(5i)"=>"08"}, "commit"=>"Create Post"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.1ms)[0m  INSERT INTO "posts" ("title", "body", "name", "addr", "DOB", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["title", "title22"], ["body", "body22"], ["name", "name22"], ["addr", "addr 22"], ["DOB", "2015-07-25 02:08:00.000000"], ["created_at", "2015-07-25 02:08:52.638002"], ["updated_at", "2015-07-25 02:08:52.638002"]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://maovm:3000/posts/2
+Completed 302 Found in 18ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/posts/2" for 192.168.56.1 at 2015-07-25 14:08:52 +1200
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered posts/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 93ms (Views: 79.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:52 +1200
+
+
+Started GET "/assets/posts.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:52 +1200
+
+
+Started GET "/assets/users.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:52 +1200
+
+
+Started GET "/assets/welcome.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:52 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:52 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:52 +1200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:52 +1200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:52 +1200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:52 +1200
+
+
+Started GET "/assets/theme.css?body=1" for 192.168.56.1 at 2015-07-25 14:08:52 +1200
+
+
+Started GET "/assets/widgets.js?body=1" for 192.168.56.1 at 2015-07-25 14:08:52 +1200
+
+
+Started GET "/posts" for 192.168.56.1 at 2015-07-25 14:08:54 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 87ms (Views: 85.8ms | ActiveRecord: 0.4ms)
